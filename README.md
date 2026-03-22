@@ -1,71 +1,16 @@
 # 💙 Connect & Care
 
-Платформа взаимопомощи — люди помогают людям.
+> Open source community support platform — people helping people.
 
-## 🚀 Как запустить (БЕЗ хостинга, БЕЗ сервера)
+Live demo: https://itisislom.github.io/connect-and-care/
 
-1. Скопируй папку `SiteHelper` куда угодно на компьютере
-2. Просто открой файл `index.html` в браузере (двойной клик)
-3. Всё работает локально!
+## 💡 The Idea
+A platform where people post real problems and others offer help.
+No money, no algorithms — just human empathy.
 
-## 📁 Структура файлов
+## 🛠 Tech
+Pure HTML + CSS + JS. No framework, no build tools, no server.
+Just open index.html and it works.
 
-```
-SiteHelper/
-├── index.html   — главная страница (точка входа)
-├── style.css    — все стили
-├── app.js       — вся логика и данные
-└── README.md    — этот файл
-```
-
-## 📄 Страницы
-
-| Страница | Описание |
-|----------|----------|
-| **Home (Feed)** | Лента постов сообщества |
-| **Help Others** | Найти кого-то, кому помочь (grid/list) |
-| **Post Detail** | Страница поста с комментариями |
-| **Ask for Help** | Форма публикации запроса |
-| **My Posts** | Мои опубликованные запросы |
-
-## ✨ Что работает
-
-- ✅ Навигация между всеми страницами
-- ✅ Фильтрация ленты по категориям
-- ✅ Поиск в "Help Others"
-- ✅ Grid/List режимы
-- ✅ Публикация комментариев
-- ✅ Лайки комментариев
-- ✅ Форма "Ask for Help" с валидацией
-- ✅ Загрузка фото (предпросмотр)
-- ✅ Срочность / категории / анонимность
-- ✅ Toast уведомления
-- ✅ Анимации при загрузке карточек
-- ✅ Адаптивный дизайн (мобильный)
-
-## 🔧 Как добавить новый пост в код
-
-В файле `app.js`, в массиве `DB.posts`, добавь объект:
-
-```js
-{
-  id: 6,
-  author: 'Имя',
-  initials: 'ИФ',
-  time: '1 hour ago',
-  category: 'Social',
-  title: 'Заголовок',
-  body: 'Описание проблемы...',
-  tags: ['тег1', 'тег2'],
-  replies: 0, likes: 0,
-  urgency: 'Low',
-  emoji: '😊',
-  postedBy: { name: 'Имя', since: 'Jan 2024', posts: 1, helpRate: 100 }
-}
-```
-
-## 🌐 Хочешь в интернет (бесплатно)?
-
-- **GitHub Pages** — бесплатно, просто загрузи файлы на GitHub
-- **Netlify** — drag & drop папки, сразу онлайн
-- **Vercel** — тоже бесплатно и быстро
+## 📄 License
+MIT — free to use, modify, build upon.
